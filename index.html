@@ -9,8 +9,17 @@
   </head>
 
   <body>
+    <div id="sidebar">
+      <i class="fa fa-bars" aria-hidden="true"></i>
+      <a href="#summary" class="menu-link">Summary</a>
+      <a href="#movies" class="menu-link">Movies</a>
+      <a href="#info" class="menu-link borderless">Info</a>
+    </div>
+    <div id="page-content">
+    ...
+    </div>
     <div class="container">
-      <div class="card">
+      <div class="card" id="summary">
         <div class="img-circle">
           <img src="images/khaled.jpeg" alt="Khaled McGonnell" id="img-top">
         </div>
@@ -24,6 +33,10 @@
         <p>
           But if you must know just one thing about me, it's that I'm dad to this monster.
         </p>
+          <video width="320" height="200" controls>
+            <source src="videos/alia.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+          </video>
         <div class="img-circle">
           <img src="images/alia.jpg" alt="Alia Mcgonnell">
         </div>
@@ -79,7 +92,9 @@
               </td>
               <td>
                 <h3>The Dark Knight Rises</h3>
-                <p>More Nolan obviously. What happens if you don't like this movie? It would be very painful</p>
+                <p>More Nolan obviously.</p>
+                <p>What happens if you don't like this movie?</p>
+                <p>It would be very painful...</p>
                 <p>...for you.</p>
                 <iframe src="https://giphy.com/embed/PljikCsOt2RYA" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
               </td>
@@ -88,7 +103,7 @@
         </table>
       </div>
 
-      <div class="card">
+      <div class="card" id="info">
         <h2>About this page</h2>
         <p>This html was lovingly sourced during the <a href="https://lewagon.org/program" target="_blank">FullStack program @LeWagon</a>. I remain scarred by Food Delivery.</p>
         <ul class="list-inline">
