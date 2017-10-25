@@ -134,6 +134,13 @@ td {
     color: #55acee;
 }
 
+#img-top {
+  position: relative;
+  margin: 0 auto;
+  border: 3px solid white;
+  bottom: 5px;
+}
+
 @media (max-width: 960px) {
   /* For a screen < 960px, this CSS will be read */
   .container {
